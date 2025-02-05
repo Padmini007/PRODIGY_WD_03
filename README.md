@@ -30,12 +30,7 @@ To run this Tic-Tac-Toe web application locally, follow these steps:
 
 ### Installation
 
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/tic-tac-toe.git
-    cd tic-tac-toe
-    ```
+1. **Clone the repository**
 
 2. **Open the project** in your browser:
 
