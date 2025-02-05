@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+
+        <!-- Mode and difficulty selection -->
+        <div>
+            <label for="mode-select">Game Mode:</label>
+            <select id="mode-select">
+                <option value="pvp">Player vs Player</option>
+                <option value="ai">Player vs AI</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="difficulty">AI Difficulty:</label>
+            <select id="difficulty" disabled>
+                <option value="easy">Easy</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+
+        <!-- Message to show game state -->
+        <div id="game-message"></div>
+
+        <div id="game-board" class="board">
+            <!-- The game board will be created dynamically using JavaScript -->
+        </div>
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
